@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('l.gif');
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+.icon{
+    color: white;
+}
+span{
+    color: rgb(215, 217, 219);
+}
+#error{
+    color: white;
+}
+.signup-page{
+    width: 400px;
+    height: 650px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 4px;
+    color: white;
+}
+.sign{
+    text-align: center;
+    padding-top: 18px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-radius:6px;
+    outline:none;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+p a{
+    color: rgb(129, 130, 131);
+}
+button{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(245, 245, 247);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#gender{
+    width: 250px;
+    height: 30px;
+}

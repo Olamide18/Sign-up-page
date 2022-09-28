@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css">
+    <title>Sign-Up Page</title>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div id="error"></div>
+    <div class="icon">
+        <h1 class="logo">Group<span> 25</span></h1>
+    </div>
+    <div class="signup-page">
+        <h1 class="sign">SIGN UP</h1>
+      <form id="form">
+        <label>First Name</label>
+        <input id="firstname" type="text"required>
+        <label>Last Name</label>
+        <input id="lastname"type="text"required>        
+        <label>Email Address</label>
+        <input id="email"type="email"required>
+        <label>Phone Number</label>
+        <input id="phone"type="text"required>      
+        <label for="gender">Gender</label>
+            <select id="gender"name="Gender">
+                <option value=""></option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                </select>
+        <label>Password</label>
+        <input id="password"type="password"placeholder="Enter your password"required/>
+        <label>Confirm Password</label>
+        <input id="password2"type="password"placeholder="Confirm your password"required/>
+        <button type="submit">Submit</button>
+        </form> 
+        <p>By clicking the Sign Up button, you agree to our<br>
+            <a href="#">Terms and Conditions</a>
+        </p>
+</div>
+<p>Have an account? <a href="#">Login here</a></p>
+
+
+<p>Copyright @Olamide</p>
+</body>
+</html>
